@@ -54,6 +54,8 @@ h6,
 .btn {
     font-weight: 500;
     transition: .5s;
+    background-color: #1977CC !important;
+    color: white !important;
 }
 
 .btn:hover {
@@ -105,7 +107,7 @@ h6,
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: var(--light) !important;
+    color: var(--dark) !important;
     outline: none;
     transition: .5s;
 }
@@ -117,7 +119,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--secondary) !important;
+    color: #1977CC !important;
 }
 
 .navbar-light .navbar-brand h1 {
