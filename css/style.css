@@ -309,6 +309,13 @@ h6,
 
 
 /*** About ***/
+
+span::after{
+    background: #24dc54 !important;
+}
+
+
+
 .progress {
     height: 5px;
 }
@@ -361,16 +368,21 @@ h6,
     align-items: center;
     justify-content: center;
     color: var(--light);
-    background: url(../img/blob-primary.png) center center no-repeat;
+    /* background: url(../img/blob-primary.png) center center no-repeat; */
+    /* filter: hue-rotate(220deg); */
     background-size: contain;
     transition: .5s;
 }
 
-.service-item:hover .service-icon {
+.all-course-svg{
+    height: 50px;
+}
+
+/* .service-item:hover .service-icon {
     color: var(--dark);
     background: url(../img/blob-secondary.png) center center no-repeat;
     background-size: contain;
-}
+} */
 
 .service-item h5,
 .service-item p {
@@ -463,6 +475,7 @@ h6,
         right 0px bottom 0px,
         center center;
     background-repeat: no-repeat;
+    
 }
 
 
